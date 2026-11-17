@@ -1,0 +1,138 @@
+/* General */
+body {
+    background: #f4f7fc;
+    font-family: Arial, sans-serif;
+    color: #263238;
+    margin: 0;
+}
+
+.navbar {
+    background: #163b70 !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+    font-weight: 600;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #163b70;
+    font-weight: 700;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background: #163b70;
+    color: white;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn-primary {
+    background: #2563eb;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background: #163b70;
+}
+
+.btn-success {
+    border-radius: 7px;
+}
+
+.btn-danger {
+    border-radius: 7px;
+}
+
+/* Forms */
+.form-control,
+.form-select {
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 5px rgba(37,99,235,0.3);
+}
+
+/* Tables */
+.table {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table thead {
+    background: #163b70;
+    color: white;
+}
+
+.table th,
+.table td {
+    padding: 13px;
+    vertical-align: middle;
+}
+
+/* QR Code */
+img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Dashboard */
+.dashboard-card {
+    padding: 25px;
+    text-align: center;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Alerts */
+.alert {
+    border-radius: 8px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .container {
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .table {
+        font-size: 13px;
+    }
+
+    .btn {
+        margin-bottom: 5px;
+    }
+}
